@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396650734298",
+    "project_id": "projetmodbile",
+    "storage_bucket": "projetmodbile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396650734298:android:5902dc4e2ed5d1a2127be3",
+        "android_client_info": {
+          "package_name": "com.example.konstructora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqxmc0T0o1a17UAj1T0XoU3CpeAcCsSbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+name: konstructora
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.2
+  image_picker: ^1.1.0
+  flutter_rating_bar: ^4.0.1
+  cloud_firestore: ^4.17.0
+  firebase_storage: ^11.7.2
+  provider: ^6.1.2
+  google_maps_flutter: ^2.2.0
+  flutter_localizations:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+  curved_navigation_bar: ^1.0.3
+
+flutter:
+  assets:
+    - assets/bg.png
+    - assets/image-removebg-preview (2).png
+    - assets/image-removebg-preview (3).png
+    - assets/image-removebg-preview.png
+    - assets/coffee_assets/americano/square/
+    - assets/coffee_assets/americano/portrait/
+    - assets/coffee_assets/black_coffee/square/
+    - assets/coffee_assets/black_coffee/portrait/
+    - assets/coffee_assets/cappuccino/square/
+    - assets/coffee_assets/cappuccino/portrait/
+    - assets/coffee_assets/espresso/square/
+    - assets/coffee_assets/espresso/portrait/
+    - assets/coffee_assets/latte/square/
+    - assets/coffee_assets/latte/portrait/
+    - assets/coffee_assets/macchiato/square/
+    - assets/coffee_assets/macchiato/portrait/
+    - assets/coffee_assets/arabica_coffee_beans/
+    - assets/coffee_assets/excelsa_coffee_beans/
+    - assets/coffee_assets/liberica_coffee_beans/
+    - assets/coffee_assets/robusta_coffee_beans/
+    - assets/user.png
+    - assets/owner2.png
+    - assets/coffee-lover-hot-coffee.gif
+    - assets/empty.png
+
+
+    
+
+
+
+  uses-material-design: true
